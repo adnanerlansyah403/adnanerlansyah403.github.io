@@ -153,6 +153,47 @@ header ul li a {
 
 /* Courses End */
 
+/* All Projects */
+
+.container-project {
+    text-align: center;
+    padding: 3rem 0 9%;
+}
+
+.box-container {
+    box-sizing: border-box;
+}
+
+.box-container .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.box-container .box h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.box-container .box a {
+    color: #000;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: .5rem;
+    transition: .5s linear;
+}
+
+.box-container .box a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* End Projects */
+
 /* Footer starts */
 
 footer {
