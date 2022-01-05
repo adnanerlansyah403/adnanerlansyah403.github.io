@@ -9,10 +9,21 @@ let iconsAccordion = document.querySelectorAll(".container-accordion .box-accord
 const email2 = document.querySelector(".subcribe .email input");
 const h4email2 = document.querySelector(".subcribe .email h4");
 const imageErenAttack = document.querySelector(".about .scroll-image");
+const prevButton = document.getElementById("prev");
+const nextButton = document.getElementById("next");
 console.log(email2);
 // console.log(iconsAccordion);
 // console.log(boxGallery);
 // console.log(navA);
+
+nextButton.addEventListener("click", function() {
+    console.log("hello");
+    window.scrollTo(0, 1640);
+});
+
+prevButton.addEventListener("click", function() {
+    window.scrollTo(0, 1640);
+});
 
 email2.addEventListener("focus", function() {
     h4email2.classList.add("focus");
