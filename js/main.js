@@ -125,11 +125,6 @@ const loadWindow = document.querySelector(".load-site");
 var opacity=0;
 var intervalID=0;
 
-$( document ).ready(function() {
-    $("body").load(function(){
-        $("#my_audio").play();
-    });
-});
     window.onload=fadeout;
         function fadeout(){
                setInterval(hide, 600);
