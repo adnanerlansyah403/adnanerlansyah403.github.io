@@ -1,0 +1,7 @@
+1.background-gradient 1 :
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,18,9,1) 0%, rgba(8,44,51,1) 100%);
+
+2. background-gradient 2 :
+
+
