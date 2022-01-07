@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(39, 35, 35); */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    resize: none;
+}
+
+.container .image img {
+    width: 305px;
+    /* border-radius: 50%; */
+}
